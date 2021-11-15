@@ -1,0 +1,16 @@
+Hello!
+
+This is a quick and dirty version of this release for Audio Developer Conference 2021.
+At present you won't be able to build the code properly without some more work on my
+part! But here *is* the code and schematics for the Humble Audio Quad Operator, which
+I am now releasing under the Creative Commons Attribution-ShareAlike 4.0 International
+license. See LICENSE file for more details.
+
+In time, I'll get this repo tidied up for those who want to build custom firmware for
+the Quad Operator.
+
+For now, I hope you enjoy a look at the code and schematics!
+
+Take care,
+Will
+info@humble.audio

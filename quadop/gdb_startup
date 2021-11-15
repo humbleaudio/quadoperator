@@ -1,0 +1,4 @@
+break assert_failed
+break HardFault_Handler
+break Error_Handler
+continue

@@ -1,0 +1,37 @@
+In brief:
+
+A bank of phase-locked 4 operators plus frequency modulation for FM synthesis patches.
+
+
+Operator features:
+- Ratio: Define an integer multiplier for the operator frequency relative to base tuning
+  - 0.5, 1-48
+- Detune: control for specifying non-integer phase relationships (+- semitone, center detent = 0 detune)
+- Shape: controls waveform over a continuously morphing a sine->tri->square->saw continuum
+- Fixed vs. Track switch:
+  - In track mode, operator respects base tuning and v/o
+  - In fixed mode, operator ignores base tuning and v/o. ratio and detune act like coarse/fine tuning controls.
+- Index CV input:
+  - For manipulation of operator level via external modulation sources (index level affects all modulation destinations)
+  - Normalled to +5V for sustained modulation without an external modulation source
+  - Unipolor 0 to 5V (standard Doepfer envelope range)
+- Shape CV input:
+  - Same effect as changes to shape knob
+  - Bipolar +- 5V CV
+- Individual audio signal output per operator
+
+Modulation matrix:
+- Defines the modulation relationships between operators (including feedback self-modulation)
+- Each potentiometer specifies the maximum amount of modulation applied when a source operator's index is at maximum value
+- Apply an external modulation source to the operators (e.g., noise)
+
+
+Other Features:
+- Coarse/fine to specify a base tuning for all operators
+- Inputs for an external modulation source signal and index (e.g., modulation with noise)
+- v/o & fm (for sub-audio rate vibrato effects)
+- Reset CV input for phase reseting by gate/trigger
+
+
+Specs:
+- 26 hp
