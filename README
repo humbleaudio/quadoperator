@@ -1,16 +1,20 @@
 Hello!
 
-This is a quick and dirty version of this release for Audio Developer Conference 2021.
-At present you won't be able to build the code properly without some more work on my
-part! But here *is* the code and schematics for the Humble Audio Quad Operator, which
-I am now releasing under the Creative Commons Attribution-ShareAlike 4.0 International
-license. See LICENSE file for more details.
+This repo contains the source code for the Humble Audio Quad Operator. We're open sourcing the code under a Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). More information is available in the LICENSE file.
 
-In time, I'll get this repo tidied up for those who want to build custom firmware for
-the Quad Operator.
+To build the project:
 
-For now, I hope you enjoy a look at the code and schematics!
+1) Download & install the ARM GCC toolchain from https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
+
+2) Update quadop/makefile to point the TOOLCHAIN_PATH variable to point to the GCC install location on your computer. By default it poins to the install location for macOS.
+
+3) Run:
+
+$ make -f quadop/makefile
+
+Sorry, I'm not a Windows user and may not have made this simple for Windows users. Unfortunately, I can't help there. Hopefully someone from the community can help sort out those issues!
+
 
 Take care,
 Will
-info@humble.audio
+will@humble.audio
